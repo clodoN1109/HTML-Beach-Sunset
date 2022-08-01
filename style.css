@@ -1,0 +1,228 @@
+*{
+  transition: 3s all;
+}
+
+html{
+  width:100%;
+  heigth:100%;
+}
+
+
+.virtual {
+  height: 0vw;
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.ocean-rock {
+  background-color: rgb(60, 60, 60);
+  width: 5vw;
+  height: 5vw;
+  border-top-left-radius: 27%;
+  border-top-right-radius: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-line {
+  background-color: orange;
+  width: 90%;
+  height: 0.2em;
+  margin: 4px;
+  transform: scale(1.2);
+}
+
+.red-sign {
+  background-color: darkred;
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  transform: translate(20px, -16px);
+}
+
+.red-sign:hover {
+  transform: translate(20px, -16px) scale(4);
+  background-image: radial-gradient(red, darkblue);
+}
+
+.pole {
+  background-color: black;
+  width: 2px;
+  height: 10px;
+  transform: translate(15px, -9px);
+}
+
+.landscape {
+  width:100%;
+  heigth:100%;
+}
+
+.farwaterline1 {
+  background-color: rgb(0, 0, 100);
+  height: 0.2vw;
+}
+
+.farwaterline2 {
+  background-color: darkblue;
+  height: 2vw;
+}
+
+.wavesline {
+  background-color: rgb(255, 255, 255);
+  height: 1.9vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: ;
+}
+
+.wave {
+  background-image: linear-gradient(lightblue, white);
+  height: 2.5vw;
+  width: 2.6vw;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin: 0;
+  transform: skew(30deg, -5deg);
+}
+
+.sky {
+  background-color: skyblue;
+  background-image: linear-gradient(rgb(200,200,200), skyblue);
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  transition: 6s background-color;
+}
+
+.sky:hover {
+  background-color: darkorange;
+  background-image: none;
+}
+
+.sun {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  background-color: yellow;
+  background-image: linear-gradient(yellow, orange);
+  transition: transform 6s, background-color 6s;
+}
+
+.sun:hover {
+  background-color: red;
+  transform: translate(0px, 20vw);
+  background-image: none;
+}
+
+.beach {
+  background-image: linear-gradient(darkkhaki, khaki);
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flat-wave-line {
+  background-color: rgb(220, 220, 255);
+  height: 0.5vw;
+}
+
+.wet-sand {
+  height: 1.7vw;
+  background-color: brown;
+}
+
+.umbrella-line {
+  display: flex;
+  flex-direction: row;
+  background-color: ;
+  width: 100vw;
+  height: 30vw;
+  font-size: 1vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.umbrella-line2 {
+  display: flex;
+  flex-direction: row;
+  background-color: ;
+  width: 100vw;
+  height: 55vw;
+  font-size: 2vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.umbrella {
+  display: flex;
+  flex-direction: column;
+  transition: 0.6s all;
+  transform-origin: bottom;
+}
+
+.umbrella:hover {
+  transform: rotate(15deg);
+}
+
+.stick {
+  margin: 0 auto;
+  background-color: brown;
+  width: 0.4em;
+  height: 3em;
+}
+
+.cover {
+  width: 6.5em;
+  height: 3em;
+  background-color: green;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.cover:hover {
+  transform: skew(5deg, 5deg);
+}
+
+.road {
+  height: 10vw;
+  background-image: radial-gradient(darkgray, gray);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.paint {
+  height: 2px;
+  width: 30px;
+  background-color: yellow;
+}
+
+.water {
+  background-image: linear-gradient(darkblue, blue);
+  height: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  /* water shinny spots line */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1vw;
+}
+
+.shinny {
+  width: 8px;
+  height: 1px;
+  background-color: white;
+}
